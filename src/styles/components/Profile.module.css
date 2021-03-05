@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.profileContainer img {
+.profileContainer > img {
   width: 5.5rem;
   height: 5.5rem;
   border-radius: 50%;
@@ -23,4 +23,8 @@
   font-size: 1rem;
   margin-top: 0.5rem;
   color: var(--tittle);
+}
+
+.profileContainer p img {
+  margin-right: 0.5rem;
 }

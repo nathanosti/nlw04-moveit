@@ -6,7 +6,10 @@ export default function Profile() {
       <img src="https://github.com/nathanosti.png" />
       <div>
         <strong>Nathan Osti</strong>
-        <p>Level 1</p>
+        <p>
+          <img src="icons/Up.svg" alt="level"/>
+          Level 1
+        </p>
       </div>
     </div>
   )
