@@ -16,8 +16,9 @@ export default function Home() {
         <title>Home | MoveIt</title>
       </Head>
       <ExperienceBar />
+
       <section>
-        <div className={styles.leftContainer}>
+        <div>
           <Profile />
           <CompletedChallenges />
           <Countdown />
